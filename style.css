@@ -1,0 +1,77 @@
+body {
+  font-family: Optima, sans-serif;
+  margin-right: 20px;
+  background-color: #E8E8E8;
+}
+
+#title {
+  text-align:center;
+  font-size: 36px;
+  border: 1px solid black;
+  border-color: #C0C0C0;
+}
+
+#address {
+  text-align:center;
+  font-size: 15px;
+}
+
+#prof_summary {
+  margin-left: 20px;
+  font-size: 18px;
+}
+#prof_description {
+  font-size: 15px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+#skills_title {
+  margin-left: 20px;
+  font-size: 18px;
+}
+#skills {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+#work_title {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#work_list {
+  margin-left: 20px;
+}
+
+#education_title {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#education_list {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+hr {
+  width: 100%;
+  color: 	#B0B0B0;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+#skills_list {
+-webkit-column-count: 2;  /* Chrome/Opera, Safari */
+-moz-column-count: 2; /* Mozilla Firefox */
+column-count: 2;
+
+-webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+-moz-column-gap: 50px; /* Mozilla Firefox */
+column-gap: 50px;
+}
